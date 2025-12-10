@@ -1,0 +1,86 @@
+# Large dataset files (too big for GitHub)
+dataset/*.jsonl
+dataset/curriculum_learning/*.jsonl
+dataset/curriculum_learning_unbroken/*.jsonl
+
+# Keep directory structure but ignore data files
+!dataset/.gitkeep
+!dataset/curriculum_learning/.gitkeep
+!dataset/curriculum_learning_unbroken/.gitkeep
+
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environment variables
+.env
+.env.local
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# User config (may contain secrets)
+config.yaml
+
+# Hyperswitch repository (cloned locally, not part of this repo)
+hyperswitch/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
