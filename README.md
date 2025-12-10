@@ -2,6 +2,16 @@
 
 Generate a comprehensive dataset for Continued Pre-Training (CPT) from the [Hyperswitch](https://github.com/juspay/hyperswitch) repository.
 
+## 📦 Pre-built Dataset
+
+**Download the ready-to-use dataset:**  
+🤗 [Hyperswitch Curriculum Learning Dataset on HuggingFace](https://huggingface.co/datasets/AdityaNarayan/HS-Repo-Curriculum-Learning)
+
+The dataset includes:
+- **Unbroken dataset** (860 MB, 28,703 entries) - Complete entries for dynamic chunking
+- **Chunked dataset** (904 MB, 50,145 chunks) - Pre-chunked at 8192 tokens
+- **Curriculum learning phases** - 3 progressive training phases for optimal learning
+
 ## Features
 
 This tool extracts and formats training data from multiple sources:
@@ -201,9 +211,18 @@ python analyze_dataset.py
 python -c "import json; print(json.dumps(json.loads(open('dataset/hyperswitch_cpt_dataset.jsonl').readline()), indent=2))"
 ```
 
+**Or download the pre-built dataset:**  
+🤗 [HuggingFace Dataset Hub](https://huggingface.co/datasets/AdityaNarayan/HS-Repo-Curriculum-Learning)
+
 ---
 
 ## Training with Curriculum Learning
+
+### Download Pre-built Dataset
+
+🤗 **[Download from HuggingFace](https://huggingface.co/datasets/AdityaNarayan/HS-Repo-Curriculum-Learning)**
+
+The dataset is ready to use with both unbroken and chunked versions, plus organized curriculum learning phases.
 
 ### Overview
 
