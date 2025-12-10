@@ -1,11 +1,13 @@
 # Large dataset files (too big for GitHub)
 dataset/*.jsonl
 dataset/curriculum_learning/*.jsonl
+dataset/curriculum_learning_chunked/*.jsonl
 dataset/curriculum_learning_unbroken/*.jsonl
 
 # Keep directory structure but ignore data files
 !dataset/.gitkeep
 !dataset/curriculum_learning/.gitkeep
+!dataset/curriculum_learning_chunked/.gitkeep
 !dataset/curriculum_learning_unbroken/.gitkeep
 
 # Python virtual environment
